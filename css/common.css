@@ -12,3 +12,234 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/* =============== task-1 ============ */
+.list {
+  list-style-type: none;
+  padding: 0;
+  display: block;
+}
+
+.item h2 {
+  color: #2E2F42;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.list li {
+  color: #2E2F42;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.li-list {
+  border: 1px solid #2E2F42;
+  margin: 5px 0;
+  padding: 10px;
+  width: 340px;
+  height: 40px;
+  border-radius: 2px;
+
+}
+
+.conteiner {
+  padding: 16px;
+  gap: 24px;
+}
+
+/* =============== task-2 ============ */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1128px
+}
+
+.gallery-image {
+  width: 360px;
+  height: 300px;
+}
+
+.gallery-item :hover {
+  border: 2px solid #2332d1;
+}
+
+.gallery-item {
+  margin: 10px;
+  gap: 24px;
+  width: calc((100% - 72px) / 3);
+
+}
+
+.page-content {}
+
+.container-benefits {
+  width: calc((100% - 72px) / 4);
+}
+
+/* =============== task-3 ============ */
+
+.st-input {
+  width: 360px;
+  height: 40px;
+  border-radius: 2px;
+  border: 2px solid #363434;
+  padding: 5px;
+  transition: border-color 0.3s;
+}
+
+.st-input:hover,
+.st-input:focus {
+  border: 3px solid #25228e;
+}
+
+/* =============== task-4 ============ */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.label-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.input-form {
+  width: 360px;
+  height: 40px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.button-form {
+  width: 86px;
+  height: 40px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-form:hover,
+.button-form:focus {
+  background-color: #2980b9;
+}
+
+/* =============== task-5 ============ */
+
+.conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  transition: background-color 0.5s ease;
+}
+
+.widget {
+  color: #2E2F42;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.change-color {
+  width: 300px;
+  height: 80px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.change-color:hover,
+.change-color:focus {
+  background-color: #072d47;
+}
+
+/* =============== task-6 ============ */
+
+.boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-st {
+  width: 148px;
+  height: 40px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.input-st:focus {
+  outline: none;
+  border-color: #4caf50;
+  /* Колір рамки при фокусі */
+}
+
+.box-item {
+  margin-top: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.button-create {
+  background-color: #3498db;
+  color: white;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.button-destroy {
+  background-color: #f44336;
+  color: white;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.button-create:hover,
+.button-create:focus {
+  background-color: #6C8CFF;
+}
+
+.button-destroy:focus,
+.button-destroy:hover {
+  background-color: #FF7070;
+}
